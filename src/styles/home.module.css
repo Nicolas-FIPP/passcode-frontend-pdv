@@ -1,0 +1,304 @@
+/* home.module.css */
+
+.caixa {
+    max-width: auto;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #d1d1d1;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+    justify-content: center;
+    display: flex;
+  }
+  
+  .title {
+    text-align: center;
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+  }
+  
+  .entrada {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 600px;
+  
+  }
+  
+  .input {
+    padding: 20px;
+    margin: 10px 0;
+    background-color: #01385e;
+    color: white;
+    border: 1px solid white;
+    border-radius: 8px;
+    width: 80%;
+    height: 60px;
+    font-size: 20px;
+  }
+
+  .input::placeholder{
+    color: rgba(255, 255, 255, 0.445);
+    
+  }
+
+
+  .label{
+    padding: 20px;
+    position: fixed;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+  }
+
+  
+  
+  .button {
+    padding: 10px 20px;
+    background-color: #01385e;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 10px 5px;
+  }
+
+  
+  
+  .button:hover {
+    background-color: #45a049;
+  }
+  
+  .produtosLista {
+    margin-top: 20px;
+    background-color: rgb(255, 255, 255);
+    width: 600px;
+
+  }
+  
+  .subTitle {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .produtoItem {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .total {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .link{
+    background-color: #4076b3;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+  .link:hover {
+    text-decoration: underline;
+  }
+
+
+  .campos{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+  }
+
+
+  .listProd{
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+  }
+
+
+
+
+
+  .lista{
+    background-color: #ffffff;
+  }
+
+
+
+
+
+
+  
+
+  .prod{
+    cursor: pointer;
+    height: 20px;
+    width: auto;
+    background-color: rgba(128, 128, 128, 0.123);
+    border: 1px solid black;
+  }
+
+
+
+
+
+
+
+
+  .produtosTable {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 3px 5px;
+  }
+  
+  .produtosTable th, .produtosTable td {
+    text-align: left;
+    padding: 5px;
+    border-bottom: 1px solid #ffffff;
+  }
+  
+  .produtosTable th {
+    background-color: #01385e;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .produtosTable td {
+    color: white;
+    background-color: #01375e91;
+  }
+  
+  .produtosLista {
+    margin-top: 20px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;  
+    max-height: 600px;
+    height: 600px;
+    overflow-y: auto;
+    border-radius: 20px;
+    padding: 15px;
+  }
+  
+  .subTitle {
+    margin-bottom: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .total {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    text-align: left; 
+    color: white;
+    background-color: #01385e;
+    border-radius: 20px;
+    padding: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .total h2 {
+    margin: 0;
+    
+  }
+
+
+
+  .ProdVal{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.fundo_escuro {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    height: 100%; 
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1000; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+
+
+.div_central {
+    background-color: #fff;
+    padding: 30px; 
+    border-radius: 20px;
+    z-index: 1001; 
+    max-width: 600px; 
+    width: 90%; 
+    max-height: 80vh; 
+    overflow-y: auto; 
+}
+
+
+
+.modal h1 {
+    font-size: 24px; 
+    margin-bottom: 20px; 
+    color: #333; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.modal ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.lista {
+    margin-bottom: 10px; 
+}
+
+.prod {
+    padding: 10px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.prod:hover {
+    background-color: #e2e6ea;
+}
+
+.modal button:hover {
+    background-color: #004691;
+}
+
+  
