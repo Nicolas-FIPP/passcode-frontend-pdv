@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
+import { routes } from "./routes/routes";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -24,9 +25,21 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="pt-br">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
-        {children}
+        {/* Menu de navegação */}
+        <nav>
+          <ul>
+            {routes.map((route) => (
+              <li key={route.path}>
+                <a href={route.path}>{route.path}</a>
+              </li>
+            ))}
+          </ul>
+        </nav>
+
+        {/* Renderizando o conteúdo da página */}
+        <main>{children}</main>
       </body>
     </html>
   );
