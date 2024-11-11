@@ -28,7 +28,7 @@ export default function RootLayout({
     <html lang="pt-br">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         {/* Menu de navegação */}
-        <nav>
+        {/* <nav>
           <ul>
             {routes.map((route) => (
               <li key={route.path}>
@@ -36,7 +36,7 @@ export default function RootLayout({
               </li>
             ))}
           </ul>
-        </nav>
+        </nav> */}
 
         {/* Renderizando o conteúdo da página */}
         <main>{children}</main>
