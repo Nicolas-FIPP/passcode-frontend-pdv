@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import styles from '../styles/login.module.css';
 import {useState} from 'react';
+import '../styles/global.css'
 
 export default function Login() {
 
@@ -35,7 +36,6 @@ export default function Login() {
 
     return (
         <>
-        
             <Head>
                 <link rel="preconnect" href="https://fonts.googleapis.com" />
                 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="true" />

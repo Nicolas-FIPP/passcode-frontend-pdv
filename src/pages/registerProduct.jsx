@@ -5,6 +5,8 @@ import Link from  'next/link'
 import loginImg from '../pictures/login.png'; 
 import voltar from '../pictures/voltar.png'
 import { useState } from 'react';
+import '../styles/global.css'
+
 
 export default function RegisterProduct() {
 
