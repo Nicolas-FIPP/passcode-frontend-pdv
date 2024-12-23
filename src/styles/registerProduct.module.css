@@ -1,0 +1,149 @@
+.body{
+    display: flex;
+    flex-direction: row;
+    font-family: "Inter";
+}
+
+.header{
+    background-color: #135884;
+    color: white;
+    font-family: "Limelight";
+    display: flex;
+    width: 120px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.title_header{
+    margin-top: 20px;
+    font-weight: 400;
+}
+
+.login_button{
+    margin-bottom: 20px;
+}
+
+.image_header{
+    margin-bottom: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+.login_button{
+    background-color: white;
+    color: #135884;
+    border-radius: 20px;
+    height: 40px;
+    width: 66px;
+    font-size: 15px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.login{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    font-family: "Inter";
+    font-weight: bold;
+}
+
+
+.test{
+    width: 100%;
+}
+
+.cadastro_produtos{
+    display: flex;
+}
+
+
+.screen_products{
+    background-color: #E8E8E8;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.title{
+    font-size: 20px;
+}
+
+
+.img_voltar{
+    width: 25px;
+    height: 25px;
+    padding: 26px;
+}
+
+
+
+
+.infoProducts{
+
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.data_product{
+    width: 300px;
+    margin-bottom: 30px;
+    margin-right: 40px;
+}
+
+
+.label_product{
+    padding: 20px;
+}
+
+.input_product{
+    margin-bottom: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.24);
+    margin: 20px;
+    padding: 10px;
+
+    width: 300px;
+
+    border-radius: 16px;
+}
+
+.save_product{
+    margin-left: 50px;
+}
+
+.button_save{
+    border: none;
+    background-color: #135884;
+    border-radius: 10px;
+    color: white;
+    height: 30px;
+    margin: 10px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+.button_cancel{
+    border: none;
+    background-color: #E8E8E8;
+    border-radius: 10px;
+    color: black;
+    height: 30px;
+    margin: 10px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+
